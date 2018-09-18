@@ -15,13 +15,13 @@ logging.basicConfig(filename='app.log',level=logging.INFO)
 @app.route('/<control>/<method>/<id>', methods=['GET', 'POST', 'PUT', 'DELETE'])
 
 def route(control, method='index', id=None):
-    # try:
+    try:
         controller = load_controller(control)
         response = routing(request.method, controller, method, id, request.form)
-        return response, 200
+        return jsonify(response), 200
 
-    # except Exception as e:
-    #     return jsonify({'code': 404, 'message': 'Not found!'}), 404
+    except Exception as e:
+        return jsonify({'code': 404, 'message': 'Not found!'}), 404
 
 
 def routing(verb, controller, method, id, form):

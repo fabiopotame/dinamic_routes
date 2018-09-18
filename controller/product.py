@@ -14,6 +14,3 @@ def edit(verb, id, form):
 
 def delete(verb, id, form=None):
     return jsonify(id, form)
-
-def teste():
-    return 'maoe'
