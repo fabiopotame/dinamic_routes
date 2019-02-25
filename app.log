@@ -1,0 +1,11 @@
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [25/Feb/2019 16:15:23] "GET /ura-pci/calls/1 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [25/Feb/2019 16:15:24] "GET /ura-pci/calls/1 HTTP/1.1" 404 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [25/Feb/2019 16:15:36] "GET /ura-pci/calls/1 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [25/Feb/2019 16:15:37] "GET /ura-pci/calls/1 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [25/Feb/2019 16:15:37] "GET /ura-pci/calls/1 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [25/Feb/2019 16:15:38] "GET /ura-pci/calls/1 HTTP/1.1" 404 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [25/Feb/2019 16:16:05] "GET /ura-pci/calls/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Feb/2019 16:16:06] "GET /ura-pci/calls/1 HTTP/1.1" 200 -

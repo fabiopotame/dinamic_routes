@@ -38,7 +38,7 @@ def load_controller(control):
 
 
 def load_method(verb, controller, method, id=None, form=None):
-    return getattr(controller, method)(verb, id, form)
+    return getattr(controller, verb + '_' + method)(id, form)
 
 
 if __name__ == '__main__':
